@@ -1,0 +1,64 @@
+imple_shell "Tue Dec 12, 2023" "V1.0" "simple_shell man page"
+.SH NAME
+
+.B simple_shell - Simple Unix comand interpreter
+simple_shell: the shell or command interpreter is the computer program
+that provides a user interface to access the services of the operating system.
+
+.SH SYNOPSYS
+.B #include \fB"shell.h"
+
+./hsh
+/bin/[command] [option]
+[command] [option]
+
+.SH DESCRIPTION
+Shell is a user interface to use the services of a computer.
+It can be a command-line interface –the one we will build- or graphical user interface,
+like regular software such as Windows Office.
+
+.SH EXAMPLES
+$ /bin/ls -l
+total 656
+-rw-rw-r--@ 1 abysinia  staff     179 Dec 13 AUTHORS
+-rw-rw-r--@ 1 abysinia  staff    3761 Dec 13 README.md
+-rw-rw-r--@ 1 abysinia  staff     489 Dec 13 _dollar_special.c
+-rw-rw-r--@ 1 abysinia  staff     826 Dec 13 _get_history_lines_count.c
+-rw-rw-r--@ 1 abysinia  staff     364 Dec 13 _getenv.c
+-rw-rw-r--@ 1 abysinia  staff     817 Dec 13 _handle_var_replacement.c
+-rw-rw-r--@ 1 abysinia  staff    1732 Dec 13 _help.c
+-rw-rw-r--@ 1 abysinia  staff    1595 Dec 13 _history.c
+-rw-rw-r--@ 1 abysinia  staff     750 Dec 13 _own_memory.c
+-rw-rw-r--@ 1 abysinia  staff     219 Dec 13 _puts.c
+-rw-rw-r--@ 1 abysinia  staff     351 Dec 13 _strcpy.c
+-rw-rw-r--@ 1 abysinia  staff     448 Dec 13 _strncpy.c
+-rw-rw-r--@ 1 abysinia  staff    1329 Dec 13 _strtok.c
+-rw-rw-r--@ 1 abysinia  staff     492 Dec 13 _write_history.c
+-rw-rw-r--@ 1 abysinia  staff    3982 Dec 13 builtins.c
+-rw-rw-r--@ 1 abysinia  staff    3953 Dec 13 f_alias_list.c
+-rw-rw-r--@ 1 abysinia  staff    1085 Dec 13 f_builtin_utils.c
+-rw-rw-r--@ 1 abysinia  staff    3004 Dec 13 f_command_handlers.c
+-rw-rw-r--@ 1 abysinia  staff     756 Dec 13 f_error.c
+-rw-rw-r--@ 1 abysinia  staff    1374 Dec 13 f_exit.c
+-rw-rw-r--@ 1 abysinia  staff    1905 Dec 13 f_handle_builtins.c
+-rw-rw-r--@ 1 abysinia  staff     502 Dec 13 f_handle_comment.c
+-rw-rw-r--@ 1 abysinia  staff     317 Dec 13 f_handle_enter.c
+-rw-rw-r--@ 1 abysinia  staff    4159 Dec 13 f_handle_shell_logical_operators.c
+-rw-rw-r--@ 1 abysinia  staff    1270 Dec 13 f_linked_lists.c
+-rw-rw-r--@ 1 abysinia  staff    1403 Dec 13 f_memory.c
+-rw-rw-r--@ 1 abysinia  staff     727 Dec 13 f_special.c
+-rw-rw-r--@ 1 abysinia  staff    1807 Dec 13 f_strings.c
+-rw-rw-r--@ 1 abysinia  staff    1001 Dec 13 f_strings2.c
+-rw-rw-r--@ 1 abysinia  staff    1238 Dec 13 f_strings_creations.c
+-rw-rw-r--@ 1 abysinia  staff    2161 Dec 13 main.c
+-rw-rw-r--@ 1 abysinia  staff    2843 Dec 13 man1_simple_shell
+-rw-rw-r--@ 1 abysinia  staff    4084 Dec 13 shell.h
+-rw-r--r--@ 1 abysinia  staff  195096 Dec 13 shell.jpeg
+
+.SH AUTHOR'S
+-Written by Yilkal Zegeye Desta <abysiniapro@gmail.com>
+
+.SH BUGS
+There were no errors in the testing time of this code (Tue Dec 12, 2023).
+.SH SEE ALSO
+sh

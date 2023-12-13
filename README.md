@@ -74,7 +74,7 @@ Tasks
 
 - Implement the env built-in, that prints the current environment
 
-#Advanced
+# Advanced
 
 6. Simple shell 0.1.1
 
